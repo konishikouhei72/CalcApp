@@ -22,6 +22,7 @@ class SecondActivity : AppCompatActivity() {
 
         if (value3 == 1.0) {
             textView.text = "${value1 + value2}"
+            Log.d("kotlintest", "1.1+2.2は「" + textView.text + "」")
         }else if(value3 == 2.0){
             textView.text = "${value1 - value2}"
         }else if(value3 == 3.0){
